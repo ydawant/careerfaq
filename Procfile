@@ -1,1 +1,1 @@
-web: python dealscraper/hello.py
+web: gunicorn hello.py --log-file -
